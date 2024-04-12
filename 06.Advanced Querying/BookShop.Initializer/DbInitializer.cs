@@ -15,7 +15,7 @@ namespace BookShop.Initializer
             context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
 
-            //Console.WriteLine("BookShop database created successfully.");
+            Console.WriteLine("BookShop database created successfully.");
 
             Seed(context);
         }
@@ -28,7 +28,7 @@ namespace BookShop.Initializer
 
             context.SaveChanges();
 
-            //Console.WriteLine("Sample data inserted successfully.");
+            Console.WriteLine("Sample data inserted successfully.");
         }
     }
 }
